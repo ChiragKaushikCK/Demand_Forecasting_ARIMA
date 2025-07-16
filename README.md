@@ -164,22 +164,6 @@
 <p style="font-size: 1.1em; color: #444; line-height: 1.6;">
   The notebook's output will include summaries of the fitted time series models and diagnostic statistics.
 </p>
-<h3 style="color: #4CAF50; font-size: 1.8em; margin-top: 25px;">ARIMA Model Summary Example:</h3>
-<pre style="background-color: #2D2D2D; color: #E0E0E0; padding: 15px; border-radius: 8px; overflow-x: auto; font-family: 'Fira Code', monospace; font-size: 0.95em; box-shadow: 0 2px 10px rgba(0,0,0,0.15);"><code><span style="color: #CE9178;">\\begin{tabular}{lcccccc}</span>
-<span style="color: #CE9178;">                
-& \\\\textbf{coef} & \\\\textbf{std err} & \\\\textbf{z} & \\\\textbf{P$> |$z$|$} & \\\\textbf{[0.025} & \\\\textbf{0.975]}  \\\\\\\\\\</span>
-<span style="color: #CE9178;">\\\\midrule</span>
-<span style="color: #CE9178;">\\\\textbf{const}  &     517.0213  &       31.024     &    16.665  &         0.000        &      456.215    &      577.827     \\\\\\\\\\</span>
-<span style="color: #CE9178;">\\\\textbf{ma.L1}  &       0.3173  &        0.224     &     1.414  &         0.157        &       -0.122    &        0.757     \\\\\\\\\\</span>
-<span style="color: #CE9178;">\\\\textbf{sigma2} &    1.265e+04  &     4209.484     &     3.004  &         0.003        &     4395.561    &     2.09e+04     \\\\\\\\\\</span>
-<span style="color: #CE9178;">\\\\bottomrule</span>
-<span style="color: #CE9178;">\\end{tabular}</span>
-<span style="color: #CE9178;">\\begin{tabular}{lclc}</span>
-<span style="color: #CE9178;">\\\\textbf{Ljung-Box (L1) (Q):}     & 0.41 & \\\\textbf{  Jarque-Bera (JB):  } & 2.21  \\\\\\\\\\</span>
-<span style="color: #CE9178;">\\\\textbf{Prob(Q):}                & 0.52 & \\\\textbf{  Prob(JB):          } & 0...</span></code></pre>
-<p style="font-size: 0.9em; color: #666; margin-top: 10px;">
-  This output summarizes the model's coefficients, standard errors, p-values, and confidence intervals, along with diagnostic tests like Ljung-Box and Jarque-Bera for residual analysis.
-</p>
 
 ---
 
