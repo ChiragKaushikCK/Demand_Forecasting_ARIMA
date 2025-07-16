@@ -166,7 +166,8 @@
 </p>
 <h3 style="color: #4CAF50; font-size: 1.8em; margin-top: 25px;">ARIMA Model Summary Example:</h3>
 <pre style="background-color: #2D2D2D; color: #E0E0E0; padding: 15px; border-radius: 8px; overflow-x: auto; font-family: 'Fira Code', monospace; font-size: 0.95em; box-shadow: 0 2px 10px rgba(0,0,0,0.15);"><code><span style="color: #CE9178;">\\begin{tabular}{lcccccc}</span>
-<span style="color: #CE9178;">                & \\\\textbf{coef} & \\\\textbf{std err} & \\\\textbf{z} & \\\\textbf{P$> |$z$|$} & \\\\textbf{[0.025} & \\\\textbf{0.975]}  \\\\\\\\\\</span>
+<span style="color: #CE9178;">                
+& \\\\textbf{coef} & \\\\textbf{std err} & \\\\textbf{z} & \\\\textbf{P$> |$z$|$} & \\\\textbf{[0.025} & \\\\textbf{0.975]}  \\\\\\\\\\</span>
 <span style="color: #CE9178;">\\\\midrule</span>
 <span style="color: #CE9178;">\\\\textbf{const}  &     517.0213  &       31.024     &    16.665  &         0.000        &      456.215    &      577.827     \\\\\\\\\\</span>
 <span style="color: #CE9178;">\\\\textbf{ma.L1}  &       0.3173  &        0.224     &     1.414  &         0.157        &       -0.122    &        0.757     \\\\\\\\\\</span>
